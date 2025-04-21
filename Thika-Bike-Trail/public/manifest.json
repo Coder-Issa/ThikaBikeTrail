@@ -1,0 +1,21 @@
+{
+    "name": "Thika Bikes Trail",
+    "short_name": "BikeTrail",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2e4a3d",
+    "description": "Explore the beautiful biking trails of Thika with our app!",
+    "icons": [
+        {
+            "src": "icons/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "icons/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
