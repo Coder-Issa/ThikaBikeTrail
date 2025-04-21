@@ -18,7 +18,8 @@ const Navbar = () => {
   return (
     <nav className="bg-bike-dark text-white py-4 px-6 sticky top-0 z-50 shadow-md">
       <div className="container mx-auto">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center">  
+          {/* <img src="images/logo.png"/> */}
           <Link to="/" className="flex items-center gap-2">
             <span className="text-2xl font-bold text-bike-accent">Thika Bikes Trail</span>
           </Link>
