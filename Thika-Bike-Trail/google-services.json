@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "872214804203",
+    "project_id": "thikabiketrails",
+    "storage_bucket": "thikabiketrails.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872214804203:android:337ff5836ceb3954dcf0ae",
+        "android_client_info": {
+          "package_name": "com.biketrails.thikabiketrails"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_7PiYSUyC2yZfCIpmvnyiyKtRIVSxwDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

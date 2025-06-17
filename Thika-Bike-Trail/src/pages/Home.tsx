@@ -23,7 +23,7 @@ const Home = () => {
               <Button asChild className="bg-bike-accent hover:bg-bike-accent/90 text-white px-8 py-6">
                 <Link to="/products">Shop Now</Link>
               </Button>
-              <Button asChild variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-6">
+              <Button asChild variant="outline" className="border-white text-black hover:bg-white/10 px-8 py-6">
                 <Link to="/contact">Contact Us</Link>
               </Button>
             </div>
@@ -114,7 +114,7 @@ const Home = () => {
               }
             ].map((service, index) => (
               <div key={index} className="bg-bike-dark p-8 rounded-lg text-center">
-                <div className="text-4xl mb-4">{service.icon}</div>http://localhost:8080/
+                <div className="text-4xl mb-4">{service.icon}</div>
                 <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
                 <p className="text-white/80">{service.description}</p>
               </div>
@@ -156,7 +156,7 @@ const Home = () => {
             <Button asChild className="bg-bike-accent hover:bg-bike-accent/90 text-white px-8 py-6">
               <Link to="/products">Shop Online</Link>
             </Button>
-            <Button asChild variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-6">
+            <Button asChild variant="outline" className="border-white text-black hover:bg-white/10 px-8 py-6">
               <Link to="/contact">Contact Us</Link>
             </Button>
           </div>
