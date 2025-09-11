@@ -284,7 +284,7 @@ const Checkout = () => {
                         />
                         <Label htmlFor="mpesa" className="flex items-center">
                           M-Pesa
-                          <span className="ml-2 text-sm text-green-600">Send via mpesa to +254 799353813 [Recommended for Kenyan customers.]</span>
+                          <span className="ml-2 text-sm text-green-600">Pay Bill Business no: 714888 Acc. No: 341687 [Recommended for Kenyan customers.]</span>
                         </Label>
                       </div>
                       
