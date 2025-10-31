@@ -183,7 +183,7 @@ const Products = () => {
                   </div>
                   <p className="text-gray-600 mb-4">{product.description}</p>
                   <div className="flex justify-between items-center">
-                    <span className="text-bike-dark font-bold text-xl">${product.price}</span>
+                    <span className="text-bike-dark font-bold text-xl">Ksh{product.price}</span>
                     <Button 
                       className="bg-bike hover:bg-bike-dark"
                       onClick={() => handleAddToCart({
