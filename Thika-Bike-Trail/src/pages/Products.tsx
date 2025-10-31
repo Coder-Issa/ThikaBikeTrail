@@ -55,22 +55,15 @@ const products = [
     image: "https://images.unsplash.com/photo-1664146158348-6a8c71ac62d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Heavy-duty lock to keep your bike secure wherever you go."
   },
-  {
-    id: 7,
-    name: "LED Smart Brake Lights",
-    category: "Accessories",
-    price: 15.35,
-    image: "https://cdn.rosebikes.de/images/7DB04FEC01AE0F6DF083BFA46FDFDA8E.png?im=Resize=(2400%2C2400)",
-    description: "Bright LED lights for increased visibility and safety during night rides."
-  },
-  {
-    id: 8,
-    name: "Road-Bike Repair Tool Kit",
-    category: "Tools",
-    price: 5.95,
-    image: "https://bike.co.ke/wp-content/uploads/2024/11/ROCKBROS-16-in-1-MTB-Road-Bike-Repair-Tools-Kit-1.webp",
-    description: "Complete repair kit with essential tools for bike maintenance."
-  },
+
+  // {
+  //   id: 8,
+  //   name: "Road-Bike Repair Tool Kit",
+  //   category: "Tools",
+  //   price: 5.95,
+  //   image: "https://bike.co.ke/wp-content/uploads/2024/11/ROCKBROS-16-in-1-MTB-Road-Bike-Repair-Tools-Kit-1.webp",
+  //   description: "Complete repair kit with essential tools for bike maintenance."
+  // },
   {
     id: 10,
     name: "Water Bottle Holder",
