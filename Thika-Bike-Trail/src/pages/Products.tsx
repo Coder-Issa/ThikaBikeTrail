@@ -60,7 +60,7 @@ const products = [
     name: "LED Smart Brake Lights",
     category: "Accessories",
     price: 15.35,
-    image: "https://bike.co.ke/wp-content/uploads/2022/01/WEST-BIKING-LED-Smart-Brake-Light-Rear-Bike-Light-Waterproof-Rechargeable-137WBK0701282-Nairobi-Kenya.jpg",
+    image: "https://cdn.rosebikes.de/images/7DB04FEC01AE0F6DF083BFA46FDFDA8E.png?im=Resize=(2400%2C2400)",
     description: "Bright LED lights for increased visibility and safety during night rides."
   },
   {
@@ -183,7 +183,7 @@ const Products = () => {
                   </div>
                   <p className="text-gray-600 mb-4">{product.description}</p>
                   <div className="flex justify-between items-center">
-                    <span className="text-bike-dark font-bold text-xl">Ksh{product.price}</span>
+                    <span className="text-bike-dark font-bold text-xl">${product.price}</span>
                     <Button 
                       className="bg-bike hover:bg-bike-dark"
                       onClick={() => handleAddToCart({
